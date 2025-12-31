@@ -109,6 +109,25 @@
    }
 }
 
+.grid__item:nth-child(6) {
+   display: flex;
+   flex-direction: column;
+   gap: var(--spacing-300);
+
+   padding: var(--spacing-300);
+
+   & div {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+   }
+
+   & img {
+      width: 178.93px;
+      height: auto;
+   }
+}
+
 .grid__item--purple-500 {
    background-color: var(--purple-500);
 }
