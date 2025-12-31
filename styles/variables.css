@@ -1,0 +1,17 @@
+:root {
+   --bg-color: #F6F5F6;
+   --purple-100: #DBD1FC;
+   --purple-500: #7551DC;
+   --yellow-100: #F9EEE2;
+   --yellow-500: #FFCC6A;
+   --white: #FFFFFF;
+   --black: #121212;
+
+   --font-family: "DM Sans", sans-serif;
+
+   --spacing-500: 40px;
+   --spacing-400: 32px;
+   --spacing-300: 24px;
+   --spacing-200: 16px;
+   --spacing-100: 8px;
+}

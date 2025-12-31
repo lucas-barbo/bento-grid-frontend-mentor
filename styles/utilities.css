@@ -1,0 +1,39 @@
+.text-preset {
+   font-size: 1.125rem;
+   line-height: 111%;
+   letter-spacing: 0;
+}
+
+.text-preset--1 {
+   font-size: 2.875;
+   line-height: 93.5%;
+   letter-spacing: -3px;
+}
+
+.text-preset--2 {
+   font-size: 2rem;
+   line-height: 90%;
+   letter-spacing: -2px;
+}
+
+.text-preset--3 {
+   font-size: 1.625rem;
+   line-height: 87.5%;
+   letter-spacing: -2px;
+}
+
+.text-preset--white {
+   color: var(--white);
+}
+
+.text-preset--black {
+   color: var(--black);
+}
+
+.text-preset--purple {
+   color: var(--purple-500);
+}
+
+.text-preset--yellow {
+   color: var(--yellow-500);
+}
