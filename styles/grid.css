@@ -91,6 +91,24 @@
    }
 }
 
+.grid__item:nth-child(5) {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: var(--spacing-500);
+
+   padding: var(--spacing-300);
+
+   & h2 {
+      order: 2;
+   }
+
+   & img {
+      width: 227.68px;
+      height: auto;
+   }
+}
+
 .grid__item--purple-500 {
    background-color: var(--purple-500);
 }
