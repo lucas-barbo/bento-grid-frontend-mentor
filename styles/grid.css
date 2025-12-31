@@ -29,8 +29,35 @@
    }
 
    & img {
-      height: 32px;
       width: auto;
+      height: 32px;
+   }
+}
+
+.grid__item:nth-child(2) {
+   display: flex;
+   flex-direction: column;
+   gap: var(--spacing-200);
+
+   padding: var(--spacing-200);
+
+   & h2 {
+      order: 2;
+   }
+
+   & div {
+      display: flex;
+      gap: 10px;
+
+      min-width: 316.08px;
+   }
+
+   & img {
+      width: 100%;
+      height: auto;
+
+      border-radius: 50rem;
+      box-shadow: -9.78145px 11.7377px 24.4536px rgba(98, 26, 123, 0.05);
    }
 }
 
