@@ -1,25 +1,26 @@
 .text-preset {
+   font-family: var(--font-family);
    font-size: 1.125rem;
    line-height: 111%;
    letter-spacing: 0;
 }
 
 .text-preset--1 {
-   font-size: 2.875;
-   line-height: 93.5%;
-   letter-spacing: -3px;
+   font-size: 2.875rem;
+   line-height: 42px;
+   letter-spacing: -4%;
 }
 
 .text-preset--2 {
    font-size: 2rem;
-   line-height: 90%;
-   letter-spacing: -2px;
+   line-height: 28px;
+   letter-spacing: -6%;
 }
 
 .text-preset--3 {
    font-size: 1.625rem;
-   line-height: 87.5%;
-   letter-spacing: -2px;
+   line-height: 24px;
+   letter-spacing: -6%;
 }
 
 .text-preset--white {
@@ -36,4 +37,8 @@
 
 .text-preset--yellow {
    color: var(--yellow-500);
+}
+
+.text-preset--center {
+   text-align: center;
 }
