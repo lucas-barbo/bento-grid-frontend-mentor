@@ -46,3 +46,49 @@
 .text-preset--center {
    text-align: center;
 }
+
+@media (width >= 48rem) {
+   .text-preset--1 {
+      font-size: 3.375rem;
+      font-weight: 500;
+      line-height: 48px;
+      letter-spacing: -.04em;
+   }
+
+   .text-preset--2 {
+      font-size: 2.25rem;
+      font-weight: 500;
+      line-height: 30px;
+      letter-spacing: -.06em;
+   }
+
+   .text-preset--3 {
+      font-size: 1.75rem;
+      font-weight: 500;
+      line-height: 26px;
+      letter-spacing: -.06em;
+   }
+}
+
+@media (width >= 70rem) {
+   .text-preset--1 {
+      font-size: 3.875rem;
+      font-weight: 500;
+      line-height: 58px;
+      letter-spacing: -3px;
+   }
+
+   .text-preset--2 {
+      font-size: 2.5rem;
+      font-weight: 500;
+      line-height: 36px;
+      letter-spacing: -2px;
+   }
+
+   .text-preset--3 {
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 28px;
+      letter-spacing: -2px;
+   }
+}
